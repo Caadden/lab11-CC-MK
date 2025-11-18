@@ -25,13 +25,13 @@ def div(a, b):
         if a == 0:
             raise ZeroDivisionError("Division by Zero!")
         else:
-            return b / a
+            return a / b
 
 def log(a, b): # use math library + raise ValueError
     if a <= 0 or b <= 0 or b == 1:
         raise ValueError("Invalid values.")
     else:
-        return math.log(b, a)
+        return math.log(a, b)
 
 def exp(a, b):
     return a ** b
