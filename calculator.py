@@ -1,3 +1,6 @@
+# https://github.com/Caadden/lab11-CC-MK
+# My partner dropped this lab, so I tried to do both.
+
 import math
 
 def square_root(a):
